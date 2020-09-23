@@ -173,3 +173,9 @@ h4 {
     color: #359652;
     border-color: #359652;
 }
+
+.ws-footer__link:hover,
+.ws-footer__link:active,
+.ws-footer__link:focus {
+    color: #fff;
+}
