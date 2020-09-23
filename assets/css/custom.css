@@ -1,0 +1,175 @@
+body {
+    font-family: biotifbook, Biotif, sans-serif;
+}
+
+a {
+    color: #3EAE5F;
+}
+
+a:hover,
+a:focus,
+a:active {
+    color: #2b9b4d;
+}
+
+.topbar {
+    background-color: #0f3916;
+    border-color: #3EAE5F;
+}
+
+.help-center-name {
+    margin-top: 2px;
+    opacity: 0.7;
+    font-size: 1.25em;
+    margin-left: 2px;
+}
+
+.btn,
+input[type="submit"],
+[role="button"],
+.topbar .login,
+.lines-button,
+.community-recent-activity .recent-activity-controls a,
+.satisfaction-box input[type="radio"]~label {
+    background-color: #3EAE5F;
+    border-color: #3EAE5F;
+    border-radius: 0;
+    color: #fff;
+    text-transform: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.btn:hover,
+.btn:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+[role="button"]:hover,
+[role="button"]:focus,
+.topbar .login:hover,
+.topbar .login:focus,
+.lines-button:hover,
+.lines-button:focus,
+.community-recent-activity .recent-activity-controls a:hover,
+.community-recent-activity .recent-activity-controls a:focus,
+.satisfaction-box input[type="radio"]~label:hover,
+.satisfaction-box input[type="radio"]~label:focus {
+    background-color: #3EAE5F;
+    border-color: #3EAE5F;
+    color: #fff;
+}
+
+.btn--topbar,
+.login[role="button"] {
+    margin-left: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 33px;
+    text-transform: uppercase;
+}
+
+.hero-bg {
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('https://makespace.com/reviews/static/media/SpaceMakers.92f0a050.jpg'); */
+    /* Хочу обработать фотку, чтобы голубой заменить на более зеленый и мужика падающего убрать */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.35)), url('../img/makespace-air-storage-1500x715-lighten.jpg');
+    top: -2%;
+}
+
+.hero-unit:after {
+    background-color: #000;
+    opacity: .3;
+}
+
+.search-box--hero-unit #query {
+    height: 54px;
+    border-radius: 4px 0px 0px 4px;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;
+}
+
+.search-box--hero-unit input[type="submit"] {
+    height: 54px;
+    margin-left: 0;
+    border-radius: 0px 4px 4px 0px;
+}
+
+.custom-block__title,
+h2,
+h3,
+h4 {
+    color: #0f3916;
+}
+
+.category-list-item__title {
+    color: #fff;
+}
+
+.custom-block__icon path {
+    fill: #3EAE5F;
+}
+
+.custom-block__icon circle {
+    stroke: #3EAE5F;
+}
+
+.custom-block__link:hover .custom-block__icon path,
+.custom-block__link:active .custom-block__icon path,
+.custom-block__link:focus .custom-block__icon path {
+    fill: #0f3916;
+}
+
+.custom-block__link:hover .custom-block__icon circle,
+.custom-block__link:active .custom-block__icon circle,
+.custom-block__link:focus .custom-block__icon circle {
+    stroke: #0f3916;
+}
+
+.category-list-item__link {
+    background-color: #0f3916;
+}
+
+.category-list-item__link:active,
+.category-list-item__link:focus,
+.category-list-item__link:hover {
+    background-color: #3EAE5F;
+}
+
+.article-list-item__link:hover,
+.article-list-item__link:active,
+.article-list-item__link:focus,
+.promoted-articles-item__title:hover,
+.promoted-articles-item__title:active,
+.promoted-articles-item__title:focus,
+.community-recent-activity a:hover,
+.community-recent-activity a:active,
+.community-recent-activity a:focus {
+    text-decoration: underline;
+}
+
+.section__title {
+    font-weight: 200;
+}
+
+.community-recent-activity,
+.category-tree-item__title {
+    border-color: e3e3e3;
+    border-width: 1px;
+}
+
+.footer-submit-ticket__subtitle {
+    color: #6A6C77;
+}
+
+.scroll-to-top {
+    border-color: #3EAE5F;
+}
+
+.scroll-to-top:hover,
+.scroll-to-top:active,
+.scroll-to-top:focus {
+    color: #359652;
+    border-color: #359652;
+}
